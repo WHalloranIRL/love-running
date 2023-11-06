@@ -93,6 +93,7 @@ main {
   /* Make main element take up extra space and push the footer down */
   flex: 1 0 auto;
   margin-top: 47px;
+  flex-direction: column;
 }
 
 /* Hero Section */
@@ -196,6 +197,12 @@ hr {
 
 #photos {
   line-height: 0;
+}
+
+/* Sign Up Form Styles */
+
+#signup {
+  background: url(assets/images/signup-image.webp) no-repeat center / cover;
 }
 
 /* Footer */
